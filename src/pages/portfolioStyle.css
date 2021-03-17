@@ -1,0 +1,12 @@
+.vcard{
+    background-color: rgb(39, 38, 39);
+    border-style: solid;
+    width: 12rem;
+    margin-bottom: 10px;
+    margin-left: 10px;
+};
+
+.card-title{
+    color: azure !important;
+};
+

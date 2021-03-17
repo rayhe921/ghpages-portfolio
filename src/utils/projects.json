@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "image": "./img/trivia.jpg",
+        "title": "Pokemon Trivia Game",
+        "summary": "A timed trivia game to test your knowledge of the pokemon video games.",
+        "githubLink": "https://github.com/rayhe921/TriviaGame",
+        "projectLink": "https://rayhe921.github.io/TriviaGame/"
+    },
+    {
+        "id": 2,
+        "image": "./img/crystal.jpg",
+        "title": "Crystal Collector Game",
+        "summary": "Collect the correct amount of crystals to win this game.",
+        "githubLink": "https://github.com/rayhe921/unit-4-game",
+        "projectLink": "https://rayhe921.github.io/unit-4-game/"
+    },
+    {
+        "id": 3,
+        "image": "./img/gifgen.gif",
+        "title": "Video Game Gif Generator",
+        "summary": "Search for your favorite video games in this Gif generator.",
+        "githubLink": "https://github.com/rayhe921/GiphyAPI",
+        "projectLink": "https://rayhe921.github.io/GiphyAPI/"
+    },
+    {
+        "id": 4,
+        "image": "./img/train.jpg",
+        "title": "Train Scheduler",
+        "summary": "Enter in your train's information to find out the next arrival time.",
+        "githubLink": "https://github.com/rayhe921/train-scheduler",
+        "projectLink": "https://rayhe921.github.io/train-scheduler/"
+    },
+    {
+        "id": 5,
+        "image": "./img/pikachu.jpg",
+        "title": "Pokemon Shuffle Game",
+        "summary": "A memory clicking game build with React.js",
+        "githubLink": "https://rayhe921.github.io/clicky-game/",
+        "projectLink": "https://fast-castle-08448.herokuapp.com/"
+    },
+    {
+        "id": 6,
+        "image": "./img/food2.jpg",
+        "title": "What's Cooking? App",
+        "summary": "A recipe app that allows you to search, edit, and save recipes.",
+        "githubLink": "https://github.com/jsills3110/Project-1",
+        "projectLink": "https://jsills3110.github.io/Project-1/"
+    },
+    {
+        "id": 7,
+        "image": "./img/hotel2.jpg",
+        "title": "Hot Hotel App",
+        "summary": "A full stack developed Hotel Reservation site deployed on Heroku.",
+        "githubLink": "https://github.com/rayhe921/Project-2",
+        "projectLink": "https://thawing-sierra-68759.herokuapp.com/"
+    }
+]
