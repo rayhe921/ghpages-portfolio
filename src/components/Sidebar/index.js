@@ -13,10 +13,10 @@ function Sidebar(props) {
                 <ul className="list-unstyled components">
                     <p>Dummy Heading</p>
                     <li>
-                        <a href="/">About</a>
+                        <a href="/ghpages-portfolio">About</a>
                     </li>
                     <li>
-                        <a href="/portfolio">Portfolio</a>
+                        <a href="/ghpages-portfolio/portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Contact</a>

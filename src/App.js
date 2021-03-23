@@ -48,8 +48,8 @@ class App extends Component {
               title="Toggle Menu"
             ></Navbar>
             <Switch>
-              <Route exact path="/" component={About} />
-              <Route exact path="/portfolio" component={Portfolio} />
+              <Route exact path="/ghpages-portfolio" component={About} />
+              <Route exact path="/ghpages-portfolio/portfolio" component={Portfolio} />
             </Switch>
           </div>
         </div>
