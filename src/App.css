@@ -24,3 +24,6 @@ body{
   align-items: stretch;
 }
 
+.main{
+  position:relative;
+}

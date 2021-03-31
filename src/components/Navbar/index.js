@@ -8,11 +8,11 @@ function Navbar(props) {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <div className="align-content-center">
-            <button type="button" className="btn btn-dark btn-outline-light"
+            <button type="button" className="btn btn-secondary"
               onClick={props.onClick}
               data-toggle={props.dataToggle}
               data-target={props.dataTargetID}>
-                {props.title}
+                <img src={props.icon} alt={props.alt}></img>
                 </button>
           </div>
         </div>

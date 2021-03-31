@@ -5,8 +5,8 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio"
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import list from "./utils/img/list.svg";
+//import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
 class App extends Component {
 
@@ -42,16 +42,17 @@ class App extends Component {
               closeSide={this.state.sidebarButton}
             ></Sidebar>
           </div>
-          <div className="content">
+          <main className="main">
             <Navbar
               onClick={this.activeSidebar}
-              title="Toggle Menu"
+              icon={list}
+              alt="Toggle"
             ></Navbar>
             <Switch>
               <Route exact path="/ghpages-portfolio" component={About} />
               <Route exact path="/ghpages-portfolio/portfolio" component={Portfolio} />
             </Switch>
-          </div>
+          </main>
         </div>
       </Router>
     );
