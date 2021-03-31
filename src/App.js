@@ -6,7 +6,6 @@ import Portfolio from "./pages/Portfolio"
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import list from "./utils/img/list.svg";
-//import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
 class App extends Component {
 
