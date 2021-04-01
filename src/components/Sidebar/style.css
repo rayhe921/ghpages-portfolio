@@ -29,7 +29,7 @@ a, a:hover, a:focus {
 
     min-width: 250px;
     max-width: 250px;
-    position: unset;
+    position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
