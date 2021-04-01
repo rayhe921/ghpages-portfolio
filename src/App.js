@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio"
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import list from "./utils/img/list.svg";
+import arrowLeft from "./utils/img/arrow-left.svg";
 //import Main from "./components/Main";
 
 class App extends Component {
@@ -29,6 +30,9 @@ class App extends Component {
         <div className="wrapper">
           <div>
             <Sidebar
+              icon={arrowLeft}
+              alt="collapse"
+              onClick={this.activeSidebar}
               title="Raymond He"
               email="Email"
               github="Github"

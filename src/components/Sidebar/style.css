@@ -1,6 +1,7 @@
 .wrapper {
     display: flex;
     width: 100%;
+    align-items: stretch;
 }
 
 #sidebar.active {
@@ -25,12 +26,14 @@ a, a:hover, a:focus {
 }
 
 #sidebar {
-    width: 250px;
-    position: relative;
+
+    min-width: 250px;
+    max-width: 250px;
+    position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
-    z-index: 999;
+    z-index: 2;
     background: #544f49;
     color: #fff;
     transition: all 0.3s;
@@ -91,4 +94,13 @@ a[data-toggle="collapse"] {
     #sidebar.active {
         margin-left: 0;
     }
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    /* top right corner of the sidebar */
+    top: 10px;
+    right: 15px;
 }
