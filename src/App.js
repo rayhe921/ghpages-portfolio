@@ -22,7 +22,6 @@ class App extends Component {
       this.setState({ sidebarButton: true })
   };
 
-
   render() {
     return (
       <Router basename="/ghpages-portfolio">
