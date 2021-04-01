@@ -25,7 +25,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/ghpages-portfolio">
         <div className="wrapper">
           <div>
             <Sidebar
@@ -48,8 +48,8 @@ class App extends Component {
               alt="Toggle"
             ></Navbar>
             <Switch>
-              <Route exact path="/ghpages-portfolio" component={About} />
-              <Route exact path="/ghpages-portfolio/portfolio" component={Portfolio} />
+              <Route exact path="/" component={About} />
+              <Route exact path="/portfolio" component={Portfolio} />
             </Switch>
           </main>
         </div>
