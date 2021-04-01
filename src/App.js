@@ -6,7 +6,7 @@ import Portfolio from "./pages/Portfolio"
 import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import list from "./utils/img/list.svg";
-import Main from "./components/Main";
+//import Main from "./components/Main";
 
 class App extends Component {
 
@@ -41,9 +41,7 @@ class App extends Component {
               closeSide={this.state.sidebarButton}
             ></Sidebar>
           </div>
-          <Main
-          toggleMenu={this.state.sidebarButton}
-          >
+          <main>
             <Navbar
               onClick={this.activeSidebar}
               icon={list}
@@ -53,7 +51,7 @@ class App extends Component {
               <Route exact path="/" component={About} />
               <Route exact path="/portfolio" component={Portfolio} />
             </Switch>
-          </Main>
+          </main>
         </div>
       </Router>
     );

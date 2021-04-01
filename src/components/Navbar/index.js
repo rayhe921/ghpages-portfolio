@@ -8,7 +8,7 @@ function Navbar(props) {
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <div className="align-content-center">
-            <button type="button" className="btn btn-secondary"
+            <button type="button" className="btn btn-secondary bposition"
               onClick={props.onClick}
               data-toggle={props.dataToggle}
               data-target={props.dataTargetID}>

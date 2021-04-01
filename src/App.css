@@ -19,12 +19,11 @@ body{
 }
 
 .wrapper{
-  display:flex;
+  display: flex;
   width: 100%;
   align-items: stretch;
 }
 
 .main{
   position:relative;
-  margin-left: 250px;
 }
