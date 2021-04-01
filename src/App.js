@@ -7,7 +7,8 @@ import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import list from "./utils/img/list.svg";
 import arrowLeft from "./utils/img/arrow-left.svg";
-//import Main from "./components/Main";
+import { Container } from "./components/Grid";
+
 
 class App extends Component {
 
@@ -45,6 +46,7 @@ class App extends Component {
               closeSide={this.state.sidebarButton}
             ></Sidebar>
           </div>
+          <Container>
           <main>
             <Navbar
               onClick={this.activeSidebar}
@@ -56,6 +58,7 @@ class App extends Component {
               <Route exact path="/portfolio" component={Portfolio} />
             </Switch>
           </main>
+          </Container>
         </div>
       </Router>
     );
