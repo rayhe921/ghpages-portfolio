@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ghpages-portfolio/static/css/main.64385809.chunk.css",
+    "main.css": "/ghpages-portfolio/static/css/main.7c76f85c.chunk.css",
     "main.js": "/ghpages-portfolio/static/js/main.56cd840d.chunk.js",
     "main.js.map": "/ghpages-portfolio/static/js/main.56cd840d.chunk.js.map",
     "runtime-main.js": "/ghpages-portfolio/static/js/runtime-main.148617db.js",
@@ -10,7 +10,7 @@
     "static/js/3.94b67857.chunk.js": "/ghpages-portfolio/static/js/3.94b67857.chunk.js",
     "static/js/3.94b67857.chunk.js.map": "/ghpages-portfolio/static/js/3.94b67857.chunk.js.map",
     "index.html": "/ghpages-portfolio/index.html",
-    "static/css/main.64385809.chunk.css.map": "/ghpages-portfolio/static/css/main.64385809.chunk.css.map",
+    "static/css/main.7c76f85c.chunk.css.map": "/ghpages-portfolio/static/css/main.7c76f85c.chunk.css.map",
     "static/js/2.6aded47e.chunk.js.LICENSE.txt": "/ghpages-portfolio/static/js/2.6aded47e.chunk.js.LICENSE.txt",
     "static/media/list.f98b98b4.svg": "/ghpages-portfolio/static/media/list.f98b98b4.svg",
     "static/media/portrait.156784cd.jpg": "/ghpages-portfolio/static/media/portrait.156784cd.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.148617db.js",
     "static/js/2.6aded47e.chunk.js",
-    "static/css/main.64385809.chunk.css",
+    "static/css/main.7c76f85c.chunk.css",
     "static/js/main.56cd840d.chunk.js"
   ]
 }
