@@ -44,7 +44,7 @@ class App extends Component {
               linkFour="https://drive.google.com/file/d/1JUPCPCCRIVjmAfSGsqsHot-cjqi9ZTSb/view?usp=sharing"
               closeSide={this.state.sidebarButton}
             ></Sidebar>
-          <main className="container-fluid">
+          <main>
             <Navbar
               onClick={this.activeSidebar}
               icon={list}
