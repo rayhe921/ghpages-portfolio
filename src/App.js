@@ -7,7 +7,6 @@ import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import list from "./utils/img/list.svg";
 import arrowLeft from "./utils/img/arrow-left.svg";
-// import { Container } from "./components/Grid";
 
 
 class App extends Component {
