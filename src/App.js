@@ -7,7 +7,7 @@ import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar";
 import list from "./utils/img/list.svg";
 import arrowLeft from "./utils/img/arrow-left.svg";
-import { Container } from "./components/Grid";
+// import { Container } from "./components/Grid";
 
 
 class App extends Component {
@@ -29,7 +29,6 @@ class App extends Component {
     return (
       <Router basename="/ghpages-portfolio">
         <div className="wrapper">
-          <Container>
             <Sidebar
               icon={arrowLeft}
               alt="collapse"
@@ -45,8 +44,7 @@ class App extends Component {
               linkFour="https://drive.google.com/file/d/1JUPCPCCRIVjmAfSGsqsHot-cjqi9ZTSb/view?usp=sharing"
               closeSide={this.state.sidebarButton}
             ></Sidebar>
-          </Container>
-          <main>
+          <main className="container-fluid">
             <Navbar
               onClick={this.activeSidebar}
               icon={list}
