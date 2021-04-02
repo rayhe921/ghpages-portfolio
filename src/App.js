@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <Router basename="/ghpages-portfolio">
         <div className="wrapper">
-          <div>
+          <Container>
             <Sidebar
               icon={arrowLeft}
               alt="collapse"
@@ -45,8 +45,7 @@ class App extends Component {
               linkFour="https://drive.google.com/file/d/1JUPCPCCRIVjmAfSGsqsHot-cjqi9ZTSb/view?usp=sharing"
               closeSide={this.state.sidebarButton}
             ></Sidebar>
-          </div>
-          <Container>
+          </Container>
           <main>
             <Navbar
               onClick={this.activeSidebar}
@@ -58,7 +57,6 @@ class App extends Component {
               <Route exact path="/portfolio" component={Portfolio} />
             </Switch>
           </main>
-          </Container>
         </div>
       </Router>
     );
